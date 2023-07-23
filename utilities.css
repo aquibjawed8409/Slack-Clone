@@ -1,0 +1,50 @@
+.flex{display: flex;}
+.flex-dir-row{flex-direction: row;}
+.flex-dir-col{flex-direction: column;}
+.justify-centre{justify-content: center;}
+.text-centre{text-align: center;}
+.justify-space{justify-content: space-between;}
+.align-centre{align-items: center;}
+.flex-start{align-items: flex-start;}
+.text-centre{text-align: center;}
+.pos-rel{position: relative;}
+.pos-abs{position: absolute;}
+.fs-big{font-size: 2rem;}
+.fs-medium{font-size: 1.5rem;}
+.fs-small{font-size: 1.125rem;}
+.fw-900{font-weight: 900;}
+.fw-700{font-weight: 700;}
+.g-8{gap: 8px;}
+.g-12{gap: 12px;}
+.heading{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.m-auto{
+    margin: 0px auto;
+}
+.pointer{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

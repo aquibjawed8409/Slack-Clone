@@ -1,0 +1,423 @@
+:root{
+    --purple : #541554;
+    --light : #f4ede4;
+    --white : #fff;
+    --yellow : #ecb22e;
+    --blue : #4285f4;
+    --shop-color : #f5f5f5;
+}
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.col-blue{
+    color: var(--blue);
+}
+.nav-container{
+    background-color: var(--purple);
+    width: 100%;
+    height: 80px;
+    /* margin: 0px  auto; */
+    /* align-items: center; */
+}
+.nav-content{
+    margin: 30px 30px 20px 70px;
+    gap: 60px;
+}
+.logo img{
+    height: 25px;
+    width: 25px;
+}
+.logo h3{
+    color: var(--white);
+}
+.nav-list{
+    align-items: flex-end;
+    gap: 10%;
+    margin: auto;
+}
+.left-nav-list ul{
+ gap: 25px;
+ color: var(--white);
+ list-style: none;
+}
+.left-nav-list ul:hover{
+    cursor: pointer;
+}
+.right-nav-list{
+    gap: 35px;
+}
+.right-nav-list i{
+    color: var(--white)
+}
+.sign-in{
+    width: 60px;
+    color: var(--white);
+}
+.sales{
+    width: 170px;
+    height: 35px;
+    background-color: var(--purple);
+    color: var(--white);
+    font-size: 900;
+    outline: none;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 17px;
+}
+.free-demo{
+    width: 150px;
+    height: 35px;
+    background-color: var(--white);
+    color: var(--purple);
+    font-size: 900;
+    outline: none;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 17px;
+}
+
+
+/* .............Hero Container................... */
+
+.hero-section{
+    width: 100%;
+    
+}
+.hero-container{
+    overflow: hidden;
+    background-color: var(--purple);
+    height: 500px;
+}
+.hero-content{
+    margin: 30px 0px 20px 70px;
+    /* width: 50%; */
+}
+.hero-content h1{
+    font-size: 60px;
+    font-weight: bolder;
+    color: var(--white);
+}
+span{
+    color: var(--yellow);
+}
+.hero-content h2{
+    color: var(--white);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+button{
+    width: 250px;
+    height: 50px;
+    padding: 8px;
+    justify-content: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.sign-google{
+    background-color: var(--blue);
+    color: var(--white);
+}
+.sign-google img{
+    width: 40px;
+    height: 40px;
+    background-color: var(--white);
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: -35px;
+}
+.video{
+    top: -180px;
+    right: -80px;
+}
+.video-content video{
+    width: 700px;
+    height: 800px;
+    margin-right: 0px;
+}
+
+
+/* .............Company Container................... */
+
+.company-container{
+    /* margin-top: 40px; */
+    background-color: var(--light);
+}
+.company-container h3{
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.company-logo{
+    justify-content: space-between;
+    gap: 70px;
+}
+
+/* .............Marketing Container................... */
+
+.marketing-container{
+    background-color: var(--light);
+}
+.market-video video{
+    width: 600px;
+    height: 500px;
+}
+.marketing-video-content{
+    margin: 100px 40px 20px 150px;
+}
+.heading{
+    margin-bottom: 30px;
+}
+.marketing-video-content h3{
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+/* ............ Calling Container................... */
+
+
+.calling-container{
+    background-color: var(--light);
+    margin-top: -50px;
+    height: 600px;
+}
+.calling-content{
+    margin: 170px 0px 20px 70px;   
+}
+.calling-content h1{
+    margin-bottom: 30px;
+}
+.calling-content h3{
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.calling-video video{
+    width: 700px;
+    height: 800px;
+    margin-right: 0px;
+}
+.call-video{
+    top: -80px;
+    right: 0px;
+}
+
+
+/* ................counting container................ */
+
+.counting-section{
+
+    background-color: var(--shop-color);
+}
+.counting-container{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.counting-head{
+    margin-top: 100px;
+}
+.counting-container h3{
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.counting-enterprises{
+    width: 350px;
+    height: 55px;
+    background-color: var(--purple);
+    color: var(--white);
+    font-size: 900;
+    outline: none;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 17px;
+    margin-right: 20px;
+}
+.counting-sales{   
+    width: 170px;
+    height: 55px;
+    background-color: var(--white);
+    color: var(--purple);
+    font-size: 900;
+    outline: none;
+    border: 1px solid var(--purple);
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 17px;
+}
+.counting-number{
+    gap: 250px;
+    margin-top: 80px;
+}
+.counting1, .counting2, .counting3{
+    text-align: center;
+}
+.counting1-number{
+    color: var(--purple);
+    font-size: 70px;
+    font-weight: 900;
+}
+
+
+/* ................Shop container................ */
+
+.shop-container{
+    background-color: var(--shop-color);
+}
+.shop-video video{
+    /* border-top-right-radius: 200%;
+    border-bottom-right-radius: 200%; */
+    /* clip-path: inset(25px 0 25px 0 round 0 500px 500px 0); */
+    border-radius: 0;
+    clip-path: inset(25px 0 25px 0 round 0 500px 500px 0);
+    width: 700px;
+    height: 500px;
+    /* border-radius: 50%; */
+}
+.italic{
+    font-size: 30px;
+}
+.shop-container-bottom{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+/* ................Card container................ */
+
+.card-section{
+    background-color: var(--light);
+}
+.card-container{
+    height: 600px;
+}
+.card-container-content{
+    margin-top: 30px;
+}
+.top-margin-card{
+    margin-top: 40px;
+}
+.card-main-heading{
+    font-size: 40px;
+    font-weight: 900;
+}
+.card{
+    background-color: var(--white);
+    padding: 15px;
+    height: 450px;
+}
+/* .card h3{
+    margin-bottom: 90px;
+} */
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+.card-content h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.card-inside-container{
+    margin-top: 50px;
+}
+.card-heading{
+    margin-bottom: 80px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+/* .............O Container................... */
+
+.o-container{
+    background-color: var(--purple);
+    color: var(--white);
+    font-size: 40px;
+    height: 380px;
+    clip-path: ellipse(75% 100% at center top);
+}
+.o-heading{
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.o-container-free-demo{
+    width: 180px;
+    height: 45px;
+    background-color: var(--white);
+    color: var(--purple);
+    font-size: 900;
+    outline: none;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 17px;   
+    margin-right: 20px;
+}
+.o-container-sales{
+    width: 180px;
+    height: 45px;
+    background-color: var(--purple);
+    color: var(--white);
+    font-size: 900;
+    outline: none;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 17px;
+}
+
+/* .............Footer Container................... */
+
+
+.footer-container{
+    background-color: var(--white);
+    width: 90%;
+    margin: auto;
+}
+.top-footer{
+    margin-top: 30px;
+}
+.footer-logo img{
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+}
+.footer-link ul{
+    list-style: none;
+}
+.footer-link ul li{
+    margin: 25px;
+    font-size: 16px;
+}
+.footer-line{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.bottom-footer{
+    width: 100%;
+    margin: 30px auto;   
+}
+.left-bottom-footer ul{
+    list-style: none;
+}
+.left-bottom-footer-list{
+    margin-left: 0px;
+}
+.download i{
+    color: var(--blue);
+}
+.download h4{
+    color: var(--blue);
+}
+.right-bottom-footer{
+    margin-bottom: 40px;
+}
